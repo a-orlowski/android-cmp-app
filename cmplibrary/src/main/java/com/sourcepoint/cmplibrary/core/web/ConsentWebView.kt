@@ -96,7 +96,7 @@ internal class ConsentWebView(
     private fun enableDebug() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             if (0 != context.applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE) {
-                setWebContentsDebuggingEnabled(true)
+//                setWebContentsDebuggingEnabled(true)
                 enableSlowWholeDocumentDraw()
             }
         }
